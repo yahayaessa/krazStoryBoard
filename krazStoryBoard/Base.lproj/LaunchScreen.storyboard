@@ -1,25 +1,63 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cg0-Ur-qEj">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="ArbFONTS-bein-ar-normal.ttf">
+            <string>beINNormal</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="IHi-px-0P7">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="PrepearVC" id="cg0-Ur-qEj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ViH-Mq-wWe">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="mbT-mJ-eAn">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="N44-bg-1fJ">
+                                <rect key="frame" x="198.66666666666663" y="790" width="175.33333333333337" height="4"/>
+                                <color key="progressTintColor" red="0.96157830950000001" green="0.0073181153279999996" blue="0.91212761399999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="trackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تحميل الملفات الاسرع" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lR-kY-xbZ">
+                                <rect key="frame" x="198.66666666666663" y="742" width="175.33333333333337" height="40"/>
+                                <fontDescription key="fontDescription" name="beINNormal" family="beIN Normal " pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="my1-aj-grH"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="mbT-mJ-eAn" secondAttribute="bottom" id="1MD-qO-cpm"/>
+                            <constraint firstItem="my1-aj-grH" firstAttribute="trailing" secondItem="N44-bg-1fJ" secondAttribute="trailing" constant="16" id="2Vj-C0-4ML"/>
+                            <constraint firstItem="my1-aj-grH" firstAttribute="trailing" secondItem="mbT-mJ-eAn" secondAttribute="trailing" id="B8f-GJ-bgF"/>
+                            <constraint firstItem="N44-bg-1fJ" firstAttribute="top" secondItem="3lR-kY-xbZ" secondAttribute="bottom" constant="8" symbolic="YES" id="Hry-NY-bRf"/>
+                            <constraint firstItem="my1-aj-grH" firstAttribute="trailing" secondItem="3lR-kY-xbZ" secondAttribute="trailing" constant="16" id="W3V-bS-juv"/>
+                            <constraint firstItem="3lR-kY-xbZ" firstAttribute="width" secondItem="mbT-mJ-eAn" secondAttribute="width" multiplier="0.45" id="ai4-ho-gmJ"/>
+                            <constraint firstItem="mbT-mJ-eAn" firstAttribute="top" secondItem="ViH-Mq-wWe" secondAttribute="top" id="boh-G4-gMm"/>
+                            <constraint firstItem="my1-aj-grH" firstAttribute="bottom" secondItem="N44-bg-1fJ" secondAttribute="bottom" constant="16" id="cKg-bg-5bN"/>
+                            <constraint firstItem="mbT-mJ-eAn" firstAttribute="leading" secondItem="my1-aj-grH" secondAttribute="leading" id="g2c-KW-Hrp"/>
+                            <constraint firstItem="3lR-kY-xbZ" firstAttribute="centerX" secondItem="N44-bg-1fJ" secondAttribute="centerX" id="s8u-Mq-MVl"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VWD-xQ-pPG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="-512.30769230769226" y="140.75829383886256"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="splash" width="750" height="1334"/>
+    </resources>
 </document>

@@ -7,23 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A87D353728F60C150048C501 /* NativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A87D353628F60C150048C501 /* NativeAdView.xib */; };
+		A87D354428F614120048C501 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D353928F614120048C501 /* UIView.swift */; };
+		A87D354528F614120048C501 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D353A28F614120048C501 /* UIImage+Gif.swift */; };
+		A87D354628F614120048C501 /* GradientViewTwoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D353B28F614120048C501 /* GradientViewTwoColor.swift */; };
+		A87D354728F614120048C501 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D353C28F614120048C501 /* UIColor.swift */; };
+		A87D354828F614120048C501 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D353D28F614120048C501 /* UITableViewExtension.swift */; };
+		A87D354928F614120048C501 /* ViewController++StoryboardID.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D353E28F614120048C501 /* ViewController++StoryboardID.swift */; };
+		A87D354A28F614120048C501 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D353F28F614120048C501 /* String.swift */; };
+		A87D354B28F614120048C501 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D354028F614120048C501 /* UIImage.swift */; };
+		A87D354C28F614120048C501 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D354128F614120048C501 /* UIImageView.swift */; };
+		A87D354E28F614120048C501 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D354328F614120048C501 /* GradientView.swift */; };
+		A87D355128F61D9E0048C501 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A87D355028F61D9E0048C501 /* Alamofire */; };
+		A87D355328F6215B0048C501 /* MZDownloadedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D355228F6215B0048C501 /* MZDownloadedViewController.swift */; };
+		A87D355528F627720048C501 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D355428F627720048C501 /* PlayerViewController.swift */; };
+		A87D355828F627E50048C501 /* ASPVideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = A87D355728F627E50048C501 /* ASPVideoPlayer */; };
+		A87D355A28F6C6360048C501 /* IJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D355928F6C6360048C501 /* IJProgressView.swift */; };
+		A87D355D28F72D0D0048C501 /* PopupDialog in Frameworks */ = {isa = PBXBuildFile; productRef = A87D355C28F72D0D0048C501 /* PopupDialog */; };
+		A87D356028F736350048C501 /* YESettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D355F28F736350048C501 /* YESettingsViewController.swift */; };
 		A8BE0A3128F33D6C008852F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE0A3028F33D6C008852F7 /* AppDelegate.swift */; };
 		A8BE0A3328F33D6C008852F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE0A3228F33D6C008852F7 /* SceneDelegate.swift */; };
-		A8BE0A3528F33D6C008852F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE0A3428F33D6C008852F7 /* ViewController.swift */; };
 		A8BE0A3828F33D6C008852F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BE0A3628F33D6C008852F7 /* Main.storyboard */; };
 		A8BE0A3A28F33D71008852F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BE0A3928F33D71008852F7 /* Assets.xcassets */; };
 		A8BE0A3D28F33D71008852F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BE0A3B28F33D71008852F7 /* LaunchScreen.storyboard */; };
+		A8BE0A4828F34534008852F7 /* ArbFONTS-beIN Normal .ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8BE0A4528F34534008852F7 /* ArbFONTS-beIN Normal .ttf */; };
+		A8BE0A4928F34534008852F7 /* ArbFONTS-bein-ar-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8BE0A4628F34534008852F7 /* ArbFONTS-bein-ar-normal.ttf */; };
+		A8BE0A4A28F34534008852F7 /* ArbFONTS-4_AF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8BE0A4728F34534008852F7 /* ArbFONTS-4_AF.ttf */; };
+		A8BE0A4D28F41EF7008852F7 /* MZDownloadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE0A4B28F41EF6008852F7 /* MZDownloadingCell.swift */; };
+		A8BE0A4E28F41EF7008852F7 /* MZDownloadManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE0A4C28F41EF7008852F7 /* MZDownloadManagerViewController.swift */; };
+		A8BE0A5328F41F2C008852F7 /* VCcomparessVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BE0A5228F41F2C008852F7 /* VCcomparessVideo.swift */; };
+		A8C3BC8528F5D36400E55BC5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3BC8428F5D36400E55BC5 /* MainViewController.swift */; };
+		A8C3BC8828F5D3AB00E55BC5 /* SwiftyRate in Frameworks */ = {isa = PBXBuildFile; productRef = A8C3BC8728F5D3AB00E55BC5 /* SwiftyRate */; };
+		A8C3BC8B28F5D54700E55BC5 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = A8C3BC8A28F5D54700E55BC5 /* GoogleMobileAds */; };
+		A8C3BC8E28F5D91300E55BC5 /* NativeAdsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3BC8D28F5D91300E55BC5 /* NativeAdsVC.swift */; };
+		A8C3BC9228F5D96900E55BC5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3BC9128F5D96900E55BC5 /* Extensions.swift */; };
+		A8C3BC9428F5DADB00E55BC5 /* GoogleAdsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C3BC9328F5DADB00E55BC5 /* GoogleAdsObject.swift */; };
+		A8C3BC9728F6071E00E55BC5 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A8C3BC9628F6071E00E55BC5 /* FirebaseAnalyticsSwift */; };
+		A8C3BC9928F6071E00E55BC5 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = A8C3BC9828F6071E00E55BC5 /* FirebaseCrashlytics */; };
+		A8C3BC9B28F6071E00E55BC5 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A8C3BC9A28F6071E00E55BC5 /* FirebaseDatabaseSwift */; };
+		A8C3BC9D28F6071E00E55BC5 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = A8C3BC9C28F6071E00E55BC5 /* FirebasePerformance */; };
+		A8C3BC9F28F6071E00E55BC5 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A8C3BC9E28F6071E00E55BC5 /* FirebaseRemoteConfigSwift */; };
+		A8C3BCA128F608DF00E55BC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8C3BCA028F608DF00E55BC5 /* GoogleService-Info.plist */; };
+		A8E3B33B28FC7499002B8469 /* MZDownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E3B33828FC7499002B8469 /* MZDownloadModel.swift */; };
+		A8E3B33C28FC7499002B8469 /* MZUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E3B33928FC7499002B8469 /* MZUtility.swift */; };
+		A8E3B33D28FC7499002B8469 /* MZDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E3B33A28FC7499002B8469 /* MZDownloadManager.swift */; };
+		A8E3B33F28FC9135002B8469 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E3B33E28FC9135002B8469 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A87D353628F60C150048C501 /* NativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdView.xib; sourceTree = "<group>"; };
+		A87D353928F614120048C501 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		A87D353A28F614120048C501 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		A87D353B28F614120048C501 /* GradientViewTwoColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewTwoColor.swift; sourceTree = "<group>"; };
+		A87D353C28F614120048C501 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		A87D353D28F614120048C501 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		A87D353E28F614120048C501 /* ViewController++StoryboardID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController++StoryboardID.swift"; sourceTree = "<group>"; };
+		A87D353F28F614120048C501 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		A87D354028F614120048C501 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		A87D354128F614120048C501 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		A87D354328F614120048C501 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		A87D355228F6215B0048C501 /* MZDownloadedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadedViewController.swift; sourceTree = "<group>"; };
+		A87D355428F627720048C501 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		A87D355928F6C6360048C501 /* IJProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IJProgressView.swift; sourceTree = "<group>"; };
+		A87D355E28F7347A0048C501 /* krazStoryBoard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = krazStoryBoard.entitlements; sourceTree = "<group>"; };
+		A87D355F28F736350048C501 /* YESettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YESettingsViewController.swift; sourceTree = "<group>"; };
 		A8BE0A2D28F33D6C008852F7 /* krazStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = krazStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BE0A3028F33D6C008852F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8BE0A3228F33D6C008852F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A8BE0A3428F33D6C008852F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8BE0A3728F33D6C008852F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8BE0A3928F33D71008852F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8BE0A3C28F33D71008852F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8BE0A3E28F33D71008852F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BE0A4528F34534008852F7 /* ArbFONTS-beIN Normal .ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArbFONTS-beIN Normal .ttf"; sourceTree = "<group>"; };
+		A8BE0A4628F34534008852F7 /* ArbFONTS-bein-ar-normal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArbFONTS-bein-ar-normal.ttf"; sourceTree = "<group>"; };
+		A8BE0A4728F34534008852F7 /* ArbFONTS-4_AF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArbFONTS-4_AF.ttf"; sourceTree = "<group>"; };
+		A8BE0A4B28F41EF6008852F7 /* MZDownloadingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadingCell.swift; sourceTree = "<group>"; };
+		A8BE0A4C28F41EF7008852F7 /* MZDownloadManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadManagerViewController.swift; sourceTree = "<group>"; };
+		A8BE0A5228F41F2C008852F7 /* VCcomparessVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCcomparessVideo.swift; sourceTree = "<group>"; };
+		A8C3BC8428F5D36400E55BC5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A8C3BC8D28F5D91300E55BC5 /* NativeAdsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdsVC.swift; sourceTree = "<group>"; };
+		A8C3BC9128F5D96900E55BC5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A8C3BC9328F5DADB00E55BC5 /* GoogleAdsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAdsObject.swift; sourceTree = "<group>"; };
+		A8C3BCA028F608DF00E55BC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8E3B33828FC7499002B8469 /* MZDownloadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadModel.swift; sourceTree = "<group>"; };
+		A8E3B33928FC7499002B8469 /* MZUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZUtility.swift; sourceTree = "<group>"; };
+		A8E3B33A28FC7499002B8469 /* MZDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZDownloadManager.swift; sourceTree = "<group>"; };
+		A8E3B33E28FC9135002B8469 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +100,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87D355D28F72D0D0048C501 /* PopupDialog in Frameworks */,
+				A87D355128F61D9E0048C501 /* Alamofire in Frameworks */,
+				A8C3BC9D28F6071E00E55BC5 /* FirebasePerformance in Frameworks */,
+				A8C3BC9F28F6071E00E55BC5 /* FirebaseRemoteConfigSwift in Frameworks */,
+				A8C3BC9B28F6071E00E55BC5 /* FirebaseDatabaseSwift in Frameworks */,
+				A87D355828F627E50048C501 /* ASPVideoPlayer in Frameworks */,
+				A8C3BC9728F6071E00E55BC5 /* FirebaseAnalyticsSwift in Frameworks */,
+				A8C3BC8B28F5D54700E55BC5 /* GoogleMobileAds in Frameworks */,
+				A8C3BC9928F6071E00E55BC5 /* FirebaseCrashlytics in Frameworks */,
+				A8C3BC8828F5D3AB00E55BC5 /* SwiftyRate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A87D353828F614120048C501 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A87D353928F614120048C501 /* UIView.swift */,
+				A87D353A28F614120048C501 /* UIImage+Gif.swift */,
+				A87D353B28F614120048C501 /* GradientViewTwoColor.swift */,
+				A87D353C28F614120048C501 /* UIColor.swift */,
+				A87D353D28F614120048C501 /* UITableViewExtension.swift */,
+				A87D353E28F614120048C501 /* ViewController++StoryboardID.swift */,
+				A87D353F28F614120048C501 /* String.swift */,
+				A87D354028F614120048C501 /* UIImage.swift */,
+				A87D354128F614120048C501 /* UIImageView.swift */,
+				A87D354328F614120048C501 /* GradientView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A87D356128F736370048C501 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A87D355F28F736350048C501 /* YESettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		A8BE0A2428F33D6C008852F7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +160,109 @@
 		A8BE0A2F28F33D6C008852F7 /* krazStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				A8E3B33728FC7484002B8469 /* MZDownloadManager */,
+				A87D355E28F7347A0048C501 /* krazStoryBoard.entitlements */,
+				A8C3BCA628F60ADF00E55BC5 /* NativeAdsNib */,
+				A8C3BCA028F608DF00E55BC5 /* GoogleService-Info.plist */,
+				A8C3BC9028F5D96900E55BC5 /* Extensions */,
+				A8C3BC8C28F5D8E600E55BC5 /* SuperClass */,
+				A8BE0A4F28F41EFB008852F7 /* View */,
+				A8BE0A4428F34523008852F7 /* Font */,
 				A8BE0A3028F33D6C008852F7 /* AppDelegate.swift */,
+				A87D353628F60C150048C501 /* NativeAdView.xib */,
 				A8BE0A3228F33D6C008852F7 /* SceneDelegate.swift */,
-				A8BE0A3428F33D6C008852F7 /* ViewController.swift */,
 				A8BE0A3628F33D6C008852F7 /* Main.storyboard */,
 				A8BE0A3928F33D71008852F7 /* Assets.xcassets */,
 				A8BE0A3B28F33D71008852F7 /* LaunchScreen.storyboard */,
 				A8BE0A3E28F33D71008852F7 /* Info.plist */,
 			);
 			path = krazStoryBoard;
+			sourceTree = "<group>";
+		};
+		A8BE0A4428F34523008852F7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE0A4728F34534008852F7 /* ArbFONTS-4_AF.ttf */,
+				A8BE0A4528F34534008852F7 /* ArbFONTS-beIN Normal .ttf */,
+				A8BE0A4628F34534008852F7 /* ArbFONTS-bein-ar-normal.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		A8BE0A4F28F41EFB008852F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A87D356128F736370048C501 /* Settings */,
+				A87D355428F627720048C501 /* PlayerViewController.swift */,
+				A8C3BC8428F5D36400E55BC5 /* MainViewController.swift */,
+				A8BE0A5428F41F37008852F7 /* ComparessVideoVC */,
+				A8BE0A5028F41F02008852F7 /* DonloadingVC */,
+				A8E3B33E28FC9135002B8469 /* SplashViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8BE0A5028F41F02008852F7 /* DonloadingVC */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE0A5128F41F15008852F7 /* Cell */,
+				A8BE0A4C28F41EF7008852F7 /* MZDownloadManagerViewController.swift */,
+				A87D355228F6215B0048C501 /* MZDownloadedViewController.swift */,
+			);
+			path = DonloadingVC;
+			sourceTree = "<group>";
+		};
+		A8BE0A5128F41F15008852F7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE0A4B28F41EF6008852F7 /* MZDownloadingCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A8BE0A5428F41F37008852F7 /* ComparessVideoVC */ = {
+			isa = PBXGroup;
+			children = (
+				A8BE0A5228F41F2C008852F7 /* VCcomparessVideo.swift */,
+			);
+			path = ComparessVideoVC;
+			sourceTree = "<group>";
+		};
+		A8C3BC8C28F5D8E600E55BC5 /* SuperClass */ = {
+			isa = PBXGroup;
+			children = (
+				A8C3BC8D28F5D91300E55BC5 /* NativeAdsVC.swift */,
+				A8C3BC9328F5DADB00E55BC5 /* GoogleAdsObject.swift */,
+				A87D355928F6C6360048C501 /* IJProgressView.swift */,
+			);
+			path = SuperClass;
+			sourceTree = "<group>";
+		};
+		A8C3BC9028F5D96900E55BC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A87D353828F614120048C501 /* Extension */,
+				A8C3BC9128F5D96900E55BC5 /* Extensions.swift */,
+			);
+			name = Extensions;
+			path = krazStoryBoard/Extensions;
+			sourceTree = SOURCE_ROOT;
+		};
+		A8C3BCA628F60ADF00E55BC5 /* NativeAdsNib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NativeAdsNib;
+			sourceTree = "<group>";
+		};
+		A8E3B33728FC7484002B8469 /* MZDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				A8E3B33A28FC7499002B8469 /* MZDownloadManager.swift */,
+				A8E3B33828FC7499002B8469 /* MZDownloadModel.swift */,
+				A8E3B33928FC7499002B8469 /* MZUtility.swift */,
+			);
+			path = MZDownloadManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +281,18 @@
 			dependencies = (
 			);
 			name = krazStoryBoard;
+			packageProductDependencies = (
+				A8C3BC8728F5D3AB00E55BC5 /* SwiftyRate */,
+				A8C3BC8A28F5D54700E55BC5 /* GoogleMobileAds */,
+				A8C3BC9628F6071E00E55BC5 /* FirebaseAnalyticsSwift */,
+				A8C3BC9828F6071E00E55BC5 /* FirebaseCrashlytics */,
+				A8C3BC9A28F6071E00E55BC5 /* FirebaseDatabaseSwift */,
+				A8C3BC9C28F6071E00E55BC5 /* FirebasePerformance */,
+				A8C3BC9E28F6071E00E55BC5 /* FirebaseRemoteConfigSwift */,
+				A87D355028F61D9E0048C501 /* Alamofire */,
+				A87D355728F627E50048C501 /* ASPVideoPlayer */,
+				A87D355C28F72D0D0048C501 /* PopupDialog */,
+			);
 			productName = krazStoryBoard;
 			productReference = A8BE0A2D28F33D6C008852F7 /* krazStoryBoard.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +321,14 @@
 				Base,
 			);
 			mainGroup = A8BE0A2428F33D6C008852F7;
+			packageReferences = (
+				A8C3BC8628F5D3AB00E55BC5 /* XCRemoteSwiftPackageReference "swifty-rate" */,
+				A8C3BC8928F5D54700E55BC5 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				A8C3BC9528F6071E00E55BC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A87D354F28F61D9E0048C501 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A87D355628F627E50048C501 /* XCRemoteSwiftPackageReference "ASPVideoPlayer" */,
+				A87D355B28F72D0D0048C501 /* XCRemoteSwiftPackageReference "PopupDialog" */,
+			);
 			productRefGroup = A8BE0A2E28F33D6C008852F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +343,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8BE0A4828F34534008852F7 /* ArbFONTS-beIN Normal .ttf in Resources */,
 				A8BE0A3D28F33D71008852F7 /* LaunchScreen.storyboard in Resources */,
+				A87D353728F60C150048C501 /* NativeAdView.xib in Resources */,
+				A8BE0A4928F34534008852F7 /* ArbFONTS-bein-ar-normal.ttf in Resources */,
+				A8C3BCA128F608DF00E55BC5 /* GoogleService-Info.plist in Resources */,
 				A8BE0A3A28F33D71008852F7 /* Assets.xcassets in Resources */,
 				A8BE0A3828F33D6C008852F7 /* Main.storyboard in Resources */,
+				A8BE0A4A28F34534008852F7 /* ArbFONTS-4_AF.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +361,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8BE0A3528F33D6C008852F7 /* ViewController.swift in Sources */,
+				A87D354428F614120048C501 /* UIView.swift in Sources */,
+				A8C3BC8528F5D36400E55BC5 /* MainViewController.swift in Sources */,
+				A87D354E28F614120048C501 /* GradientView.swift in Sources */,
+				A8E3B33F28FC9135002B8469 /* SplashViewController.swift in Sources */,
 				A8BE0A3128F33D6C008852F7 /* AppDelegate.swift in Sources */,
+				A87D355A28F6C6360048C501 /* IJProgressView.swift in Sources */,
+				A8E3B33C28FC7499002B8469 /* MZUtility.swift in Sources */,
+				A87D354528F614120048C501 /* UIImage+Gif.swift in Sources */,
 				A8BE0A3328F33D6C008852F7 /* SceneDelegate.swift in Sources */,
+				A87D356028F736350048C501 /* YESettingsViewController.swift in Sources */,
+				A8C3BC9228F5D96900E55BC5 /* Extensions.swift in Sources */,
+				A8E3B33D28FC7499002B8469 /* MZDownloadManager.swift in Sources */,
+				A87D354B28F614120048C501 /* UIImage.swift in Sources */,
+				A87D355328F6215B0048C501 /* MZDownloadedViewController.swift in Sources */,
+				A87D354928F614120048C501 /* ViewController++StoryboardID.swift in Sources */,
+				A8BE0A4E28F41EF7008852F7 /* MZDownloadManagerViewController.swift in Sources */,
+				A8BE0A5328F41F2C008852F7 /* VCcomparessVideo.swift in Sources */,
+				A87D354C28F614120048C501 /* UIImageView.swift in Sources */,
+				A8C3BC8E28F5D91300E55BC5 /* NativeAdsVC.swift in Sources */,
+				A8E3B33B28FC7499002B8469 /* MZDownloadModel.swift in Sources */,
+				A87D354728F614120048C501 /* UIColor.swift in Sources */,
+				A8BE0A4D28F41EF7008852F7 /* MZDownloadingCell.swift in Sources */,
+				A8C3BC9428F5DADB00E55BC5 /* GoogleAdsObject.swift in Sources */,
+				A87D355528F627720048C501 /* PlayerViewController.swift in Sources */,
+				A87D354628F614120048C501 /* GradientViewTwoColor.swift in Sources */,
+				A87D354A28F614120048C501 /* String.swift in Sources */,
+				A87D354828F614120048C501 /* UITableViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +517,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,16 +532,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = krazStoryBoard/krazStoryBoard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 4RUT27V6FD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = krazStoryBoard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "كرز -تحميل ملفات";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to access camera to take property images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow to access photo library to use video .";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,16 +567,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = krazStoryBoard/krazStoryBoard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 4RUT27V6FD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = krazStoryBoard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "كرز -تحميل ملفات";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to access camera to take property images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow to access photo library to use video .";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +619,110 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A87D354F28F61D9E0048C501 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		A87D355628F627E50048C501 /* XCRemoteSwiftPackageReference "ASPVideoPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/andreipitis/ASPVideoPlayer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		A87D355B28F72D0D0048C501 /* XCRemoteSwiftPackageReference "PopupDialog" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Orderella/PopupDialog.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A8C3BC8628F5D3AB00E55BC5 /* XCRemoteSwiftPackageReference "swifty-rate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/crashoverride777/swifty-rate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		A8C3BC8928F5D54700E55BC5 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A8C3BC9528F6071E00E55BC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A87D355028F61D9E0048C501 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A87D354F28F61D9E0048C501 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A87D355728F627E50048C501 /* ASPVideoPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A87D355628F627E50048C501 /* XCRemoteSwiftPackageReference "ASPVideoPlayer" */;
+			productName = ASPVideoPlayer;
+		};
+		A87D355C28F72D0D0048C501 /* PopupDialog */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A87D355B28F72D0D0048C501 /* XCRemoteSwiftPackageReference "PopupDialog" */;
+			productName = PopupDialog;
+		};
+		A8C3BC8728F5D3AB00E55BC5 /* SwiftyRate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8C3BC8628F5D3AB00E55BC5 /* XCRemoteSwiftPackageReference "swifty-rate" */;
+			productName = SwiftyRate;
+		};
+		A8C3BC8A28F5D54700E55BC5 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8C3BC8928F5D54700E55BC5 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		A8C3BC9628F6071E00E55BC5 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8C3BC9528F6071E00E55BC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		A8C3BC9828F6071E00E55BC5 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8C3BC9528F6071E00E55BC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		A8C3BC9A28F6071E00E55BC5 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8C3BC9528F6071E00E55BC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		A8C3BC9C28F6071E00E55BC5 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8C3BC9528F6071E00E55BC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		A8C3BC9E28F6071E00E55BC5 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8C3BC9528F6071E00E55BC5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A8BE0A2528F33D6C008852F7 /* Project object */;
 }

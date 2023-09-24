@@ -1,0 +1,54 @@
+{
+  "identifier" : "153023E9",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "1453448112",
+    "_developerTeamID" : "Q4HGZ8WURU",
+    "_lastSynchronizedDate" : 717193809.77458298
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21392047",
+      "localizations" : [
+
+      ],
+      "name" : "RemoveAdsMonth",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6467520778",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "اشتراك شهري لاخفاء الاعلانات",
+              "displayName" : "اشتراك شهري لاخفاء الاعلانات",
+              "locale" : "ar"
+            }
+          ],
+          "productID" : "RemoveAdMonth",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "RemoveAdMonth",
+          "subscriptionGroupID" : "21392047",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}

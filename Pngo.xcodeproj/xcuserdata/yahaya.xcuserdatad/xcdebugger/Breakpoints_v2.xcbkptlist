@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6B192910-6634-495A-ACDA-365194F00D38"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A238781-3CCE-42E6-A321-515F441E1E27"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "krazStoryBoard/View/DonloadingVC/MZDownloadedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "326"
+            endingLineNumber = "326"
+            landmarkName = "rename(name:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0A238781-3CCE-42E6-A321-515F441E1E27 - e122e8cb056309d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krazStoryBoard.DownloadedFileCell.popMenuDidSelectItem(_: PopMenu.PopMenuViewController, at: Swift.Int) -&gt; ()"
+                  moduleName = "krazStoryBoard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yahaya/Desktop/Project%20IOS/krazStoryBoard/krazStoryBoard/View/DonloadingVC/MZDownloadedViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "326"
+                  endingLineNumber = "326"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "0A238781-3CCE-42E6-A321-515F441E1E27 - f859574b29d5fd7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "krazStoryBoard.DownloadedFileCell.rename(name: Swift.String) -&gt; ()"
+                  moduleName = "krazStoryBoard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yahaya/Desktop/Project%20IOS/krazStoryBoard/krazStoryBoard/View/DonloadingVC/MZDownloadedViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "326"
+                  endingLineNumber = "326"
+                  offsetFromSymbolStart = "1716">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

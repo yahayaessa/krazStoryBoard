@@ -17,8 +17,8 @@ import AVFAudio
 import AVFoundation
 import AVKit
 import StoreKit
-import AHDownloadButton
 import Loady
+import Firebase
 
 var userDefaults = UserDefaults.standard
 var AUTOSAVE = "AUTOSAVE"
@@ -184,8 +184,8 @@ class MainViewController: VCHavingAdvancedAD , MZDownloadManagerDelegate  {
 //               downloadButton.downloadedButtonNonhighlightedBackgroundColor = .white
         setupRateApp()
 //        self.setupAd()
-        downloadButton.isUserInteractionEnabled = true
         downloadButton.didTapDownloadButtonAction = { button,status in
+            Analytics.logEvent("main_view", parameters: ["click":"did_tap_download_button_action"])
             if status == .startDownload {
             let url = UIPasteboard.general.string
 
@@ -199,8 +199,7 @@ class MainViewController: VCHavingAdvancedAD , MZDownloadManagerDelegate  {
                 self.reset()
             }
         }
-//        downloadButton.downloadButtonStateChangedAction = {button,status in
-//        }
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -240,9 +239,6 @@ class MainViewController: VCHavingAdvancedAD , MZDownloadManagerDelegate  {
     }
 
     
-    func downloadProgressUpdate(for progress: Float) {
-        
-    }
     
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

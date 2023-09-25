@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		856E856C2AB9BC4B008E8FD0 /* Loady in Frameworks */ = {isa = PBXBuildFile; productRef = 856E856B2AB9BC4B008E8FD0 /* Loady */; };
-		856E85772ABB75E3008E8FD0 /* AHDownloadButton in Frameworks */ = {isa = PBXBuildFile; productRef = 856E85762ABB75E3008E8FD0 /* AHDownloadButton */; };
 		856E857A2ABB82F1008E8FD0 /* PKIAPHandlerAlertType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856E85792ABB82F1008E8FD0 /* PKIAPHandlerAlertType.swift */; };
 		856E857C2ABB8303008E8FD0 /* PKIAPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856E857B2ABB8303008E8FD0 /* PKIAPHandler.swift */; };
 		856E857F2ABCC06B008E8FD0 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 856E857E2ABCC06B008E8FD0 /* FirebaseAnalyticsSwift */; };
@@ -19,6 +18,15 @@
 		856E858B2ABD918A008E8FD0 /* HSPopupMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856E85892ABD918A008E8FD0 /* HSPopupMenu.swift */; };
 		856E858E2ABD9371008E8FD0 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 856E858D2ABD9371008E8FD0 /* SnapKit */; };
 		856E85912ABE16FB008E8FD0 /* iOSDropDown in Frameworks */ = {isa = PBXBuildFile; productRef = 856E85902ABE16FB008E8FD0 /* iOSDropDown */; };
+		8587D30A2AC172AA0093D60E /* HighlightableRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587D3012AC172AA0093D60E /* HighlightableRoundedButton.swift */; };
+		8587D30B2AC172AA0093D60E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587D3022AC172AA0093D60E /* CircleView.swift */; };
+		8587D30C2AC172AA0093D60E /* ProgressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587D3032AC172AA0093D60E /* ProgressButton.swift */; };
+		8587D30D2AC172AA0093D60E /* AHDownloadButton+StateTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587D3042AC172AA0093D60E /* AHDownloadButton+StateTransitionAnimation.swift */; };
+		8587D30E2AC172AA0093D60E /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587D3052AC172AA0093D60E /* ProgressCircleView.swift */; };
+		8587D30F2AC172AA0093D60E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587D3062AC172AA0093D60E /* Color.swift */; };
+		8587D3102AC172AA0093D60E /* AHDownloadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587D3072AC172AA0093D60E /* AHDownloadButton.swift */; };
+		8587D3112AC172AA0093D60E /* UIButton+TitleWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587D3082AC172AA0093D60E /* UIButton+TitleWidth.swift */; };
+		8587D3122AC172AA0093D60E /* UIView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8587D3092AC172AA0093D60E /* UIView+Constraint.swift */; };
 		85ECC1062ABF6D0200FFA8BA /* dsettVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECC0FE2ABF6D0100FFA8BA /* dsettVC.swift */; };
 		85ECC1072ABF6D0200FFA8BA /* PopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECC0FF2ABF6D0100FFA8BA /* PopupVC.swift */; };
 		85ECC1082ABF6D0200FFA8BA /* PrepearVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ECC1002ABF6D0100FFA8BA /* PrepearVC.swift */; };
@@ -97,6 +105,15 @@
 		856E857B2ABB8303008E8FD0 /* PKIAPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKIAPHandler.swift; sourceTree = "<group>"; };
 		856E85882ABD918A008E8FD0 /* HSPopupMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSPopupMenuCell.swift; sourceTree = "<group>"; };
 		856E85892ABD918A008E8FD0 /* HSPopupMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSPopupMenu.swift; sourceTree = "<group>"; };
+		8587D3012AC172AA0093D60E /* HighlightableRoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightableRoundedButton.swift; sourceTree = "<group>"; };
+		8587D3022AC172AA0093D60E /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		8587D3032AC172AA0093D60E /* ProgressButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressButton.swift; sourceTree = "<group>"; };
+		8587D3042AC172AA0093D60E /* AHDownloadButton+StateTransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AHDownloadButton+StateTransitionAnimation.swift"; sourceTree = "<group>"; };
+		8587D3052AC172AA0093D60E /* ProgressCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		8587D3062AC172AA0093D60E /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		8587D3072AC172AA0093D60E /* AHDownloadButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AHDownloadButton.swift; sourceTree = "<group>"; };
+		8587D3082AC172AA0093D60E /* UIButton+TitleWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+TitleWidth.swift"; sourceTree = "<group>"; };
+		8587D3092AC172AA0093D60E /* UIView+Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraint.swift"; sourceTree = "<group>"; };
 		85ECC0FE2ABF6D0100FFA8BA /* dsettVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dsettVC.swift; sourceTree = "<group>"; };
 		85ECC0FF2ABF6D0100FFA8BA /* PopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupVC.swift; sourceTree = "<group>"; };
 		85ECC1002ABF6D0100FFA8BA /* PrepearVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepearVC.swift; sourceTree = "<group>"; };
@@ -182,7 +199,6 @@
 				A87D355D28F72D0D0048C501 /* PopupDialog in Frameworks */,
 				A87D355128F61D9E0048C501 /* Alamofire in Frameworks */,
 				85ECC1462ABFA2EF00FFA8BA /* AlertKit in Frameworks */,
-				856E85772ABB75E3008E8FD0 /* AHDownloadButton in Frameworks */,
 				856E85812ABCC06B008E8FD0 /* FirebaseAuth in Frameworks */,
 				856E85832ABCC06B008E8FD0 /* FirebaseFirestoreSwift in Frameworks */,
 				856E85912ABE16FB008E8FD0 /* iOSDropDown in Frameworks */,
@@ -217,6 +233,22 @@
 				856E85892ABD918A008E8FD0 /* HSPopupMenu.swift */,
 			);
 			path = HSPopupMenu;
+			sourceTree = "<group>";
+		};
+		8587D3002AC1729B0093D60E /* AHDownloadButton */ = {
+			isa = PBXGroup;
+			children = (
+				8587D3072AC172AA0093D60E /* AHDownloadButton.swift */,
+				8587D3042AC172AA0093D60E /* AHDownloadButton+StateTransitionAnimation.swift */,
+				8587D3022AC172AA0093D60E /* CircleView.swift */,
+				8587D3062AC172AA0093D60E /* Color.swift */,
+				8587D3012AC172AA0093D60E /* HighlightableRoundedButton.swift */,
+				8587D3032AC172AA0093D60E /* ProgressButton.swift */,
+				8587D3052AC172AA0093D60E /* ProgressCircleView.swift */,
+				8587D3082AC172AA0093D60E /* UIButton+TitleWidth.swift */,
+				8587D3092AC172AA0093D60E /* UIView+Constraint.swift */,
+			);
+			path = AHDownloadButton;
 			sourceTree = "<group>";
 		};
 		85ECC0FD2ABF6CF900FFA8BA /* Cutting */ = {
@@ -338,6 +370,7 @@
 		A8BE0A2F28F33D6C008852F7 /* Pngo */ = {
 			isa = PBXGroup;
 			children = (
+				8587D3002AC1729B0093D60E /* AHDownloadButton */,
 				85ECC14D2ABFABF300FFA8BA /* Extensions */,
 				85ECC1652AC023B900FFA8BA /* UIButtonX.swift */,
 				85ECC1482ABFA42900FFA8BA /* SCLAlertView.swift */,
@@ -468,7 +501,6 @@
 				A87D355728F627E50048C501 /* ASPVideoPlayer */,
 				A87D355C28F72D0D0048C501 /* PopupDialog */,
 				856E856B2AB9BC4B008E8FD0 /* Loady */,
-				856E85762ABB75E3008E8FD0 /* AHDownloadButton */,
 				856E857E2ABCC06B008E8FD0 /* FirebaseAnalyticsSwift */,
 				856E85802ABCC06B008E8FD0 /* FirebaseAuth */,
 				856E85822ABCC06B008E8FD0 /* FirebaseFirestoreSwift */,
@@ -515,7 +547,6 @@
 				A87D355628F627E50048C501 /* XCRemoteSwiftPackageReference "ASPVideoPlayer" */,
 				A87D355B28F72D0D0048C501 /* XCRemoteSwiftPackageReference "PopupDialog" */,
 				856E856A2AB9BC4B008E8FD0 /* XCRemoteSwiftPackageReference "loady" */,
-				856E85752ABB75E3008E8FD0 /* XCRemoteSwiftPackageReference "AHDownloadButton" */,
 				856E857D2ABCC06B008E8FD0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				856E858C2ABD9371008E8FD0 /* XCRemoteSwiftPackageReference "SnapKit" */,
 				856E858F2ABE16FA008E8FD0 /* XCRemoteSwiftPackageReference "iOSDropDown" */,
@@ -563,6 +594,7 @@
 				85ECC1282ABF770B00FFA8BA /* SettingVC.swift in Sources */,
 				85ECC15B2ABFABF300FFA8BA /* UIImage+Gif.swift in Sources */,
 				A8E3B33F28FC9135002B8469 /* SplashViewController.swift in Sources */,
+				8587D30C2AC172AA0093D60E /* ProgressButton.swift in Sources */,
 				856E858A2ABD918A008E8FD0 /* HSPopupMenuCell.swift in Sources */,
 				85ECC1062ABF6D0200FFA8BA /* dsettVC.swift in Sources */,
 				85ECC1632ABFABF300FFA8BA /* GradientView.swift in Sources */,
@@ -571,9 +603,12 @@
 				85ECC1182ABF6ED300FFA8BA /* RSLoadingSpinAlone.swift in Sources */,
 				A8BE0A3128F33D6C008852F7 /* AppDelegate.swift in Sources */,
 				A87D355A28F6C6360048C501 /* IJProgressView.swift in Sources */,
+				8587D3102AC172AA0093D60E /* AHDownloadButton.swift in Sources */,
 				85ECC15E2ABFABF300FFA8BA /* UITableViewExtension.swift in Sources */,
 				85ECC10D2ABF6D0200FFA8BA /* Cutting.swift in Sources */,
+				8587D30B2AC172AA0093D60E /* CircleView.swift in Sources */,
 				A8E3B33C28FC7499002B8469 /* MZUtility.swift in Sources */,
+				8587D30F2AC172AA0093D60E /* Color.swift in Sources */,
 				85ECC10A2ABF6D0200FFA8BA /* MyAlert.swift in Sources */,
 				85ECC1072ABF6D0200FFA8BA /* PopupVC.swift in Sources */,
 				85ECC1162ABF6ED300FFA8BA /* Utils.swift in Sources */,
@@ -585,6 +620,7 @@
 				85ECC1142ABF6ED300FFA8BA /* RSLoadingTwins.swift in Sources */,
 				856E857A2ABB82F1008E8FD0 /* PKIAPHandlerAlertType.swift in Sources */,
 				85ECC1262ABF76BF00FFA8BA /* AdsAdmob.swift in Sources */,
+				8587D3122AC172AA0093D60E /* UIView+Constraint.swift in Sources */,
 				A8E3B33D28FC7499002B8469 /* MZDownloadManager.swift in Sources */,
 				85ECC15A2ABFABF300FFA8BA /* UIView.swift in Sources */,
 				85ECC1492ABFA42900FFA8BA /* SCLExtensions.swift in Sources */,
@@ -594,21 +630,25 @@
 				85ECC1342ABF780B00FFA8BA /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				A8BE0A4E28F41EF7008852F7 /* MZDownloadManagerViewController.swift in Sources */,
 				A8BE0A5328F41F2C008852F7 /* VCcomparessVideo.swift in Sources */,
+				8587D30A2AC172AA0093D60E /* HighlightableRoundedButton.swift in Sources */,
 				85ECC1092ABF6D0200FFA8BA /* CuttingVideoVC.swift in Sources */,
 				85ECC15F2ABFABF300FFA8BA /* ViewController++StoryboardID.swift in Sources */,
 				85ECC1612ABFABF300FFA8BA /* UIImage.swift in Sources */,
 				85ECC1232ABF761E00FFA8BA /* UIViewController+BIZChildViewController.m in Sources */,
+				8587D30E2AC172AA0093D60E /* ProgressCircleView.swift in Sources */,
 				85ECC1622ABFABF300FFA8BA /* UIImageView.swift in Sources */,
 				A8C3BC8E28F5D91300E55BC5 /* NativeAdsVC.swift in Sources */,
 				85ECC15D2ABFABF300FFA8BA /* UIColor.swift in Sources */,
 				85ECC14A2ABFA42900FFA8BA /* SCLAlertView.swift in Sources */,
 				85ECC1392ABF7A9D00FFA8BA /* ChosingServiceVC.swift in Sources */,
 				A8E3B33B28FC7499002B8469 /* MZDownloadModel.swift in Sources */,
+				8587D30D2AC172AA0093D60E /* AHDownloadButton+StateTransitionAnimation.swift in Sources */,
 				A8BE0A4D28F41EF7008852F7 /* MZDownloadingCell.swift in Sources */,
 				A8C3BC9428F5DADB00E55BC5 /* GoogleAdsObject.swift in Sources */,
 				85ECC15C2ABFABF300FFA8BA /* GradientViewTwoColor.swift in Sources */,
 				A87D355528F627720048C501 /* PlayerViewController.swift in Sources */,
 				85ECC1242ABF761E00FFA8BA /* BIZPopupViewController.m in Sources */,
+				8587D3112AC172AA0093D60E /* UIButton+TitleWidth.swift in Sources */,
 				85ECC1662AC023B900FFA8BA /* UIButtonX.swift in Sources */,
 				85ECC1602ABFABF300FFA8BA /* String.swift in Sources */,
 				85ECC1372ABF780B00FFA8BA /* TPKeyboardAvoidingCollectionView.m in Sources */,
@@ -859,20 +899,12 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		856E85752ABB75E3008E8FD0 /* XCRemoteSwiftPackageReference "AHDownloadButton" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/amerhukic/AHDownloadButton.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 		856E857D2ABCC06B008E8FD0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 		856E858C2ABD9371008E8FD0 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
@@ -895,8 +927,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Yummypets/YPImagePicker.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.2.1;
+				branch = master;
+				kind = branch;
 			};
 		};
 		85ECC1412ABF8FCC00FFA8BA /* XCRemoteSwiftPackageReference "PopMenu" */ = {
@@ -962,11 +994,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 856E856A2AB9BC4B008E8FD0 /* XCRemoteSwiftPackageReference "loady" */;
 			productName = Loady;
-		};
-		856E85762ABB75E3008E8FD0 /* AHDownloadButton */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 856E85752ABB75E3008E8FD0 /* XCRemoteSwiftPackageReference "AHDownloadButton" */;
-			productName = AHDownloadButton;
 		};
 		856E857E2ABCC06B008E8FD0 /* FirebaseAnalyticsSwift */ = {
 			isa = XCSwiftPackageProductDependency;
